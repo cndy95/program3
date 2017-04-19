@@ -1,0 +1,17 @@
+view
+eye 150. 150. 75.
+center 0. 0. 0.
+viewup 0. 0. 1.
+
+light
+type directional ambient .1 .1 .1 
+color 1. 1. 1.  position 0. 0. 1.
+
+light
+type local
+ambient .1 0 0 color 1. 0 0 position 25. 25. 40.
+constAtt 0.01 linearAtt 0.01 quadAtt .002
+
+object OBJfiles/teapot.obj
+shader TOON
+rx 90

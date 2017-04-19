@@ -1,0 +1,43 @@
+view
+eye 10. 10. 7. center 3. 3. 1. 
+viewup 0. 0. 1.
+
+light
+type directional ambient .1 .1 .1
+color 1. 1. 1.  position 0. 0. 1.
+
+object OBJfiles/sphere2.obj
+shader TOON
+
+object OBJfiles/sphere2.obj
+shader TOON
+t 2 0 0
+
+object OBJfiles/sphere2.obj
+shader TOON
+t 4 0 0
+
+object OBJfiles/sphere2.obj
+shader TOON
+t 0 2 0
+
+object OBJfiles/sphere2.obj
+shader TOON
+t 2 2 0
+
+object OBJfiles/sphere2.obj
+shader TOON
+t 4 2 0
+
+object OBJfiles/sphere2.obj
+shader TOON
+t 0 4 0
+
+object OBJfiles/sphere2.obj
+shader TOON
+t 2 4 0
+
+object OBJfiles/sphere2.obj
+shader TOON
+t 4 4 0
+

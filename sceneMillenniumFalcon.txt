@@ -1,0 +1,16 @@
+view
+eye 400 400 200
+center 0. 0. 0.
+viewup 0. 0. 1.
+
+light
+type directional ambient .1 .1 .1 
+color 1. 1. 1.  position 0. 0. 1.
+
+light
+type directional ambient .1 .1 .1 
+color .5 .5 .5    position 4 4 3
+
+object OBJfiles/Millennium_Falcon/Millennium_Falcon.obj
+shader BLINN_PHONG
+rx 90.

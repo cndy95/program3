@@ -1,0 +1,18 @@
+view
+eye 2 2 2 center 0 0 0 
+viewup 0. 0. 1.
+
+light 
+type directional ambient .2 .2 .2 color 1. 1. 1. position 1 1 1
+
+light 
+type directional ambient .2 .2 .2 color 1. 1. 1. position -1 -1 1
+
+light 
+type directional ambient .2 .2 .2 color 1. 1. 1. position 0 0 -1
+
+
+object OBJfiles/texturedCube/cube_with_texture.obj
+shader BLINN_PHONG
+
+

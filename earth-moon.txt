@@ -1,0 +1,18 @@
+view  eye 4.5 4.5 2. center 0. 0. 0.  viewup 0. 0. 1.
+
+light type directional ambient .1 .1 .1 color 1. 1. 1. position 0. 1. 0. 
+
+light type directional ambient .1 .1 .1 color .7 .7 .7 position 0. 0. 1. 
+
+object OBJfiles/solarSystem/earth.obj
+shader BLINN_PHONG
+rx 90 rz 270
+s 2 2 2
+
+object OBJfiles/solarSystem/moon.obj
+shader BLINN_PHONG
+rx 90
+s .25 .25 .25
+t 3 0 1
+
+

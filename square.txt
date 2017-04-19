@@ -1,0 +1,13 @@
+view
+eye .5 .5 2.
+center .5 .5 0.
+viewup 0. 1. 0.
+
+light
+type directional
+ambient .1 .1 .1
+color 1. 1. 1.
+position 0. 0. 1.
+
+object OBJfiles/square.obj
+shader BLINN_PHONG
